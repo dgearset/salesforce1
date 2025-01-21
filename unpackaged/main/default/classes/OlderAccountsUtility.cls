@@ -1,4 +1,12 @@
+/**
+ * Class2 is a placeholder class for demonstration purposes.
+ * Add detailed description of the class functionality here.
+ */
 public class OlderAccountsUtility {
+    /**
+ * Class2 is a placeholder class for demonstration purposes.
+ * Add detailed description of the class functionality here.
+ */
     public static void updateOlderAccounts() {
         // Get the 5 oldest accounts
         Account[] oldAccounts = [SELECT Id, Description FROM Account ORDER BY CreatedDate ASC LIMIT 5];
